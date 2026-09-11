@@ -6,7 +6,21 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: k2.cloud--vpn.site
+  server: 104.19.214.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 02 - xiaohe
+  type: vless
+  server: 151.101.56.6
   port: 443
   uuid: d9eda159-18d6-4457-8983-55523a21658c
   udp: true
@@ -15,38 +29,10 @@ proxies:
   servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 02 - xiaohe
-  type: vless
-  server: 104.16.150.130
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 03 - xiaohe
-  type: vless
-  server: 172.64.53.60
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 172.64.52.60
   port: 2087
@@ -60,7 +46,7 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 05 - xiaohe
+- name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 104.16.151.21
   port: 2087
@@ -74,32 +60,146 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 05 - xiaohe
+  type: vless
+  server: 172.64.53.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 06 - xiaohe
   type: vless
-  server: italic.dearhossein-taktaz.ir
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  server: 172.64.53.74
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: italic.dearhossein-taktaz.ir
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 07 - xiaohe
   type: vless
-  server: italic.dearhossein-taktaz.ir
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  server: 104.16.150.246
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 08 - xiaohe
+  type: vless
+  server: 172.64.52.24
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 09 - xiaohe
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: italic.dearhossein-taktaz.ir
+      Host: c12.com
+- name: 🇫🇮 FI 10 - xiaohe
+  type: vless
+  server: 172.64.52.97
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 11 - xiaohe
+  type: vless
+  server: 172.64.145.93
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 12 - xiaohe
+  type: vless
+  server: 172.64.144.66
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 13 - xiaohe
+  type: vless
+  server: 172.64.53.87
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 14 - xiaohe
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--BYA--CHANEL---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr--@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr
+    headers:
+      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -112,6 +212,13 @@ proxy-groups:
   - 🇫🇮 FI 05 - xiaohe
   - 🇫🇮 FI 06 - xiaohe
   - 🇫🇮 FI 07 - xiaohe
+  - 🇫🇮 FI 08 - xiaohe
+  - 🇫🇮 FI 09 - xiaohe
+  - 🇫🇮 FI 10 - xiaohe
+  - 🇫🇮 FI 11 - xiaohe
+  - 🇫🇮 FI 12 - xiaohe
+  - 🇫🇮 FI 13 - xiaohe
+  - 🇫🇮 FI 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -124,5 +231,12 @@ proxy-groups:
   - 🇫🇮 FI 05 - xiaohe
   - 🇫🇮 FI 06 - xiaohe
   - 🇫🇮 FI 07 - xiaohe
+  - 🇫🇮 FI 08 - xiaohe
+  - 🇫🇮 FI 09 - xiaohe
+  - 🇫🇮 FI 10 - xiaohe
+  - 🇫🇮 FI 11 - xiaohe
+  - 🇫🇮 FI 12 - xiaohe
+  - 🇫🇮 FI 13 - xiaohe
+  - 🇫🇮 FI 14 - xiaohe
 rules:
 - MATCH,PROXIES
