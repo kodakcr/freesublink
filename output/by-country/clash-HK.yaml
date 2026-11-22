@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
   type: vless
-  server: 172.66.132.196
+  server: 104.21.56.202
   port: 443
   uuid: a25a71d1-10ed-4383-855a-f269a34ca691
   udp: true
